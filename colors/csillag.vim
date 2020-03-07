@@ -57,8 +57,8 @@ highlight TabLine          ctermfg=black     ctermbg=white      cterm=bold      
 highlight TabLineFill      ctermfg=black     ctermbg=white      cterm=bold               guifg=black     guibg=white      gui=bold
 highlight TabLineSel       ctermfg=black     ctermbg=white      cterm=bold,underline     guifg=black     guibg=white      gui=bold,underline
 highlight Terminal         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
-highlight Visual           ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=darkgray   gui=NONE
-highlight VisualNOS        ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=darkgray   gui=NONE
+highlight Visual           ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=gray33     gui=NONE
+highlight VisualNOS        ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=gray33     gui=NONE
 highlight WarningMsg       ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=yellow    guibg=NONE       gui=underline
 highlight WildMenu         ctermfg=black     ctermbg=yellow     cterm=bold,underline     guifg=black     guibg=yellow     gui=bold,underline
 highlight Title            ctermfg=white     ctermbg=NONE       cterm=bold               guifg=white     guibg=NONE       gui=bold
