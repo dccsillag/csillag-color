@@ -1,4 +1,4 @@
-Csillag Colorsqueme
+Csillag Colorscheme
 ===
 
 My colorscheme for Vim/GVim.
