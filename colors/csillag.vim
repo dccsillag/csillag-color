@@ -1,5 +1,5 @@
 " CSILLAG syntax
-" vim: tw=0 ts=4 sw=4
+" vim: tw=120 ts=4 sw=4
 " Vim color file
 " Maintainer: Daniel Csillag <dccsillag@gmail.com>
 
@@ -112,9 +112,13 @@ highlight link Typedef      Type
 highlight link Boolean      Identifier
 
 " ALE
-highlight ALEError         ctermfg=red       ctermbg=NONE       cterm=underline          guifg=red       guibg=NONE       gui=underline
-highlight ALEWarning       ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=yellow    guibg=NONE       gui=underline
-highlight ALEInfo          ctermfg=blue      ctermbg=NONE       cterm=underline          guifg=blue      guibg=NONE       gui=underline
+highlight ALEError             ctermfg=red       ctermbg=NONE       cterm=underline          guifg=red       guibg=NONE       gui=underline
+highlight ALEWarning           ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=yellow    guibg=NONE       gui=underline
+highlight ALEStyleError        ctermfg=blue      ctermbg=NONE       cterm=underline          guifg=purple    guibg=NONE       gui=underline
+highlight ALEStyleErrorSign    ctermfg=blue      ctermbg=NONE       cterm=underline          guifg=purple    guibg=NONE       gui=underline
+highlight ALEStyleWarning      ctermfg=blue      ctermbg=NONE       cterm=underline          guifg=purple    guibg=NONE       gui=underline
+highlight ALEStyleWarningSign  ctermfg=darkblue  ctermbg=NONE       cterm=underline          guifg=purple    guibg=NONE       gui=underline
+highlight ALEInfo              ctermfg=green     ctermbg=NONE       cterm=underline          guifg=green     guibg=NONE       gui=underline
 
 " Spell
 highlight SpellBad         ctermfg=NONE      ctermbg=NONE       cterm=undercurl          guifg=NONE      guibg=NONE       gui=undercurl
