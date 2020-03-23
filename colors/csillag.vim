@@ -30,7 +30,7 @@ highlight DiffDelete       ctermfg=NONE      ctermbg=red        cterm=NONE      
 highlight EndOfBuffer      ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
 highlight ErrorMsg         ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
 highlight VertSplit        ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#263038   guibg=NONE       gui=NONE
-highlight Folded           ctermfg=black     ctermbg=darkgray   cterm=NONE               guifg=#000000   guibg=#545454    gui=NONE
+highlight Folded           ctermfg=black     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#545454    gui=NONE
 highlight FoldColumn       ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#666666    gui=NONE
 highlight SignColumn       ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#A9A9A9    gui=NONE
 highlight IncSearch        ctermfg=black     ctermbg=cyan       cterm=bold,underline     guifg=#000000   guibg=#00FFFF    gui=bold,underline
