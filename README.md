@@ -9,3 +9,4 @@ Also supplies highlights for the following plugins:
 
 - ALE
 - Termdebug
+- Magma

@@ -129,3 +129,10 @@ highlight SpellLocal       ctermfg=gray      ctermbg=NONE       cterm=NONE      
 " Termdebug
 highlight debugPC          ctermfg=NONE      ctermbg=blue       cterm=NONE               guifg=NONE      guibg=NONE       gui=undercurl
 highlight debugBreakpoint  ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
+
+" Magma
+
+highlight MagmaHoldSign    ctermfg=darkyellow ctermbg=NONE  cterm=bold        guifg=#EBAC00 guibg=NONE    gui=bold
+highlight MagmaRunningSign ctermfg=white      ctermbg=blue  cterm=bold,italic guifg=#FFFFFF guibg=#295EFF gui=bold,italic
+highlight MagmaOkSign      ctermfg=black      ctermbg=green cterm=bold        guifg=#000000 guibg=#03B000 gui=bold
+highlight MagmaErrSign     ctermfg=black      ctermbg=red   cterm=bold        guifg=#FFFFFF guibg=#E32A00 gui=bold
