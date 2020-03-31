@@ -132,7 +132,11 @@ highlight debugBreakpoint  ctermfg=NONE      ctermbg=red        cterm=NONE      
 
 " Magma
 
-highlight MagmaHoldSign    ctermfg=darkyellow ctermbg=NONE  cterm=bold        guifg=#EBAC00 guibg=NONE    gui=bold
-highlight MagmaRunningSign ctermfg=white      ctermbg=blue  cterm=bold,italic guifg=#FFFFFF guibg=#295EFF gui=bold,italic
-highlight MagmaOkSign      ctermfg=black      ctermbg=green cterm=bold        guifg=#000000 guibg=#03B000 gui=bold
-highlight MagmaErrSign     ctermfg=black      ctermbg=red   cterm=bold        guifg=#FFFFFF guibg=#E32A00 gui=bold
+highlight MagmaHoldSign    ctermfg=darkyellow ctermbg=NONE        cterm=bold        guifg=#EBAC00 guibg=NONE    gui=bold
+highlight MagmaRunningSign ctermfg=blue       ctermbg=NONE        cterm=bold,italic guifg=#295EFF guibg=NONE    gui=bold,italic
+highlight MagmaOkSign      ctermfg=green      ctermbg=NONE        cterm=bold        guifg=#03B000 guibg=NONE    gui=bold
+highlight MagmaErrSign     ctermfg=red        ctermbg=NONE        cterm=bold        guifg=#E32A00 guibg=NONE    gui=bold
+highlight MagmaHoldLine    ctermfg=NONE       ctermbg=darkyellow  cterm=NONE        guifg=NONE    guibg=#66543D gui=NONE
+highlight MagmaRunningLine ctermfg=NONE       ctermbg=blue        cterm=NONE        guifg=NONE    guibg=#3D4566 gui=NONE
+highlight MagmaOkLine      ctermfg=NONE       ctermbg=green       cterm=NONE        guifg=NONE    guibg=#3D6643 gui=NONE
+highlight MagmaErrLine     ctermfg=NONE       ctermbg=red         cterm=NONE        guifg=NONE    guibg=#663D3D gui=NONE
