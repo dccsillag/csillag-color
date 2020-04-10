@@ -16,52 +16,53 @@ let &t_Ce="\e[4:0m"
 
 " Core
 
-highlight ColorColumn      ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
-highlight Conceal          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
-highlight Cursor           ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
-highlight lCursor          ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
-highlight CursorIM         ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
-highlight CursorColumn     ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#666666    gui=NONE
-highlight CursorLine       ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#666666    gui=NONE
-highlight DiffChange       ctermfg=NONE      ctermbg=darkyellow cterm=NONE               guifg=NONE      guibg=darkyellow gui=NONE
-highlight DiffText         ctermfg=NONE      ctermbg=lightgray  cterm=NONE               guifg=NONE      guibg=lightgray  gui=NONE
-highlight DiffAdd          ctermfg=NONE      ctermbg=green      cterm=NONE               guifg=NONE      guibg=green      gui=NONE
-highlight DiffDelete       ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
-highlight EndOfBuffer      ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
-highlight ErrorMsg         ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
-highlight VertSplit        ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#263038   guibg=NONE       gui=NONE
-highlight Folded           ctermfg=black     ctermbg=darkgray   cterm=NONE               guifg=#AAAAAA   guibg=#545454    gui=NONE
-highlight FoldColumn       ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#666666    gui=NONE
-highlight SignColumn       ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#A9A9A9    gui=NONE
-highlight IncSearch        ctermfg=black     ctermbg=cyan       cterm=bold,underline     guifg=#000000   guibg=#00FFFF    gui=bold,underline
-highlight LineNr           ctermfg=gray      ctermbg=NONE       cterm=NONE               guifg=#A5A6A8   guibg=NONE       gui=NONE
-highlight CursorLineNr     ctermfg=green     ctermbg=NONE       cterm=bold               guifg=#FFFF00   guibg=NONE       gui=bold
-highlight MatchParen       ctermfg=NONE      ctermbg=cyan       cterm=bold,underline     guifg=NONE      guibg=#00FFFF    gui=bold,underline
-highlight ModeMsg          ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
-highlight MoreMsg          ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
-highlight NonText          ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
-highlight Normal           ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#383C4A    gui=NONE
+highlight ColorColumn       ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
+highlight Conceal           ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
+highlight Cursor            ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
+highlight lCursor           ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
+highlight CursorIM          ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
+highlight CursorColumn      ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#666666    gui=NONE
+highlight CursorLine        ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#666666    gui=NONE
+highlight DiffChange        ctermfg=NONE      ctermbg=darkyellow cterm=NONE               guifg=NONE      guibg=darkyellow gui=NONE
+highlight DiffText          ctermfg=NONE      ctermbg=lightgray  cterm=NONE               guifg=NONE      guibg=lightgray  gui=NONE
+highlight DiffAdd           ctermfg=NONE      ctermbg=green      cterm=NONE               guifg=NONE      guibg=green      gui=NONE
+highlight DiffDelete        ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
+highlight EndOfBuffer       ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
+highlight ErrorMsg          ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
+highlight VertSplit         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#263038   guibg=NONE       gui=NONE
+highlight Folded            ctermfg=black     ctermbg=darkgray   cterm=NONE               guifg=#AAAAAA   guibg=#545454    gui=NONE
+highlight FoldColumn        ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#666666    gui=NONE
+highlight SignColumn        ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#A9A9A9    gui=NONE
+highlight IncSearch         ctermfg=black     ctermbg=cyan       cterm=bold,underline     guifg=#000000   guibg=#00FFFF    gui=bold,underline
+highlight LineNr            ctermfg=gray      ctermbg=NONE       cterm=NONE               guifg=#A5A6A8   guibg=NONE       gui=NONE
+highlight CursorLineNr      ctermfg=green     ctermbg=NONE       cterm=bold               guifg=#FFFF00   guibg=NONE       gui=bold
+highlight MatchParen        ctermfg=NONE      ctermbg=cyan       cterm=bold,underline     guifg=NONE      guibg=#00FFFF    gui=bold,underline
+highlight ModeMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
+highlight MoreMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
+highlight NonText           ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
+highlight Normal            ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#383C4A    gui=NONE
 "highlight Pmenu
 "highlight PmenuSel
 "highlight PmenuSbar
 "highlight PmenuThumb
-highlight Question         ctermfg=NONE      ctermbg=NONE       cterm=bold,italic        guifg=NONE      guibg=NONE       gui=bold,italic
-highlight QuickFixLine     ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
-highlight Search           ctermfg=black     ctermbg=yellow     cterm=bold,underline     guifg=#000000   guibg=#FFFF00    gui=bold,underline
-highlight SpecialKey       ctermfg=cyan      ctermbg=NONE       cterm=NONE               guifg=#00FFFF   guibg=NONE       gui=NONE
-highlight StatusLine       ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#FFFFFF    gui=bold
-highlight StatusLineNC     ctermfg=white     ctermbg=black      cterm=NONE               guifg=#FFFFFF   guibg=#000000    gui=NONE
-highlight StatusLineTerm   ctermfg=black     ctermbg=lightgreen cterm=NONE               guifg=#000000   guibg=#90EE90    gui=bold
-highlight StatusLineTermNC ctermfg=black     ctermbg=black      cterm=NONE               guifg=#000000   guibg=#000000    gui=NONE
-highlight TabLine          ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#FFFFFF    gui=bold
-highlight TabLineFill      ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#FFFFFF    gui=bold
-highlight TabLineSel       ctermfg=black     ctermbg=white      cterm=bold,underline     guifg=#000000   guibg=#FFFFFF    gui=bold,underline
-highlight Terminal         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
-highlight Visual           ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
-highlight VisualNOS        ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
-highlight WarningMsg       ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=#FFFF00   guibg=NONE       gui=underline
-highlight WildMenu         ctermfg=black     ctermbg=yellow     cterm=bold,underline     guifg=#000000   guibg=#FFFF00    gui=bold,underline
-highlight Title            ctermfg=white     ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight Question          ctermfg=NONE      ctermbg=NONE       cterm=bold,italic        guifg=NONE      guibg=NONE       gui=bold,italic
+highlight QuickFixLine      ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
+highlight Search            ctermfg=black     ctermbg=yellow     cterm=bold,underline     guifg=#000000   guibg=#FFFF00    gui=bold,underline
+highlight SpecialKey        ctermfg=cyan      ctermbg=NONE       cterm=NONE               guifg=#00FFFF   guibg=NONE       gui=NONE
+highlight StatusLine        ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#FFFFFF    gui=bold
+highlight StatusLineNC      ctermfg=white     ctermbg=black      cterm=NONE               guifg=#FFFFFF   guibg=#000000    gui=NONE
+highlight StatusLineTerm    ctermfg=black     ctermbg=lightgreen cterm=NONE               guifg=#000000   guibg=#90EE90    gui=bold
+highlight StatusLineTermNC  ctermfg=black     ctermbg=black      cterm=NONE               guifg=#000000   guibg=#000000    gui=NONE
+highlight TabLine           ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#FFFFFF    gui=bold
+highlight TabLineFill       ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#FFFFFF    gui=bold
+highlight TabLineSel        ctermfg=black     ctermbg=white      cterm=bold,underline     guifg=#000000   guibg=#FFFFFF    gui=bold,underline
+highlight Terminal          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
+highlight Visual            ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
+highlight VisualNOS         ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
+highlight WarningMsg        ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=#FFFF00   guibg=NONE       gui=underline
+highlight WildMenu          ctermfg=black     ctermbg=yellow     cterm=bold,underline     guifg=#000000   guibg=#FFFF00    gui=bold,underline
+highlight Title             ctermfg=white     ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight PopupNotification ctermfg=black     ctermbg=white      cterm=bold               guifg=#FFFFFF   guibg=#000000    gui=bold
 
 highlight link LineNrAbove LineNr
 highlight link LineNrBelow LineNr
