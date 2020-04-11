@@ -36,7 +36,7 @@ highlight SignColumn        ctermfg=white     ctermbg=darkgray   cterm=NONE     
 highlight IncSearch         ctermfg=black     ctermbg=cyan       cterm=bold,underline     guifg=#000000   guibg=#00FFFF    gui=bold,underline
 highlight LineNr            ctermfg=gray      ctermbg=NONE       cterm=NONE               guifg=#A5A6A8   guibg=NONE       gui=NONE
 highlight CursorLineNr      ctermfg=green     ctermbg=NONE       cterm=bold               guifg=#FFFF00   guibg=NONE       gui=bold
-highlight MatchParen        ctermfg=black     ctermbg=cyan       cterm=bold,underline     guifg=#000000   guibg=#00FFFF    gui=bold,underline
+highlight MatchParen        ctermfg=cyan      ctermbg=NONE       cterm=bold,underline     guifg=#00FFFF   guibg=NONE       gui=bold,underline
 highlight ModeMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight MoreMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight NonText           ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
