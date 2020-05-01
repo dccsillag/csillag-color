@@ -1,5 +1,5 @@
 " CSILLAG syntax
-" vim: tw=120 ts=4 sw=4
+" vim: tw=150 ts=4 sw=4
 " Vim color file
 " Maintainer: Daniel Csillag <dccsillag@gmail.com>
 
@@ -53,9 +53,9 @@ highlight StatusLine        ctermfg=black     ctermbg=white      cterm=NONE     
 highlight StatusLineNC      ctermfg=white     ctermbg=black      cterm=NONE               guifg=#FFFFFF   guibg=#000000    gui=NONE
 highlight StatusLineTerm    ctermfg=black     ctermbg=lightgreen cterm=NONE               guifg=#000000   guibg=#90EE90    gui=bold
 highlight StatusLineTermNC  ctermfg=black     ctermbg=black      cterm=NONE               guifg=#000000   guibg=#000000    gui=NONE
-highlight TabLine           ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#FFFFFF    gui=bold
-highlight TabLineFill       ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#FFFFFF    gui=bold
-highlight TabLineSel        ctermfg=black     ctermbg=white      cterm=bold,underline     guifg=#000000   guibg=#FFFFFF    gui=bold,underline
+highlight TabLineFill       ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#666666    gui=NONE
+highlight TabLine           ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#777777    gui=NONE
+highlight TabLineSel        ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#DDDDDD    gui=bold
 highlight Terminal          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
 highlight Visual            ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
 highlight VisualNOS         ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
