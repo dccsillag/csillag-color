@@ -21,8 +21,8 @@ highlight Conceal           ctermfg=NONE      ctermbg=NONE       cterm=NONE     
 highlight Cursor            ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
 highlight lCursor           ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
 highlight CursorIM          ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
-highlight CursorColumn      ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#666666    gui=NONE
-highlight CursorLine        ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#666666    gui=NONE
+highlight CursorColumn      ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#555555    gui=NONE
+highlight CursorLine        ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#555555    gui=NONE
 highlight DiffChange        ctermfg=NONE      ctermbg=darkyellow cterm=NONE               guifg=NONE      guibg=darkyellow gui=NONE
 highlight DiffText          ctermfg=NONE      ctermbg=lightgray  cterm=NONE               guifg=NONE      guibg=lightgray  gui=NONE
 highlight DiffAdd           ctermfg=NONE      ctermbg=green      cterm=NONE               guifg=NONE      guibg=green      gui=NONE
@@ -58,8 +58,8 @@ highlight TabLineFill       ctermfg=black     ctermbg=white      cterm=NONE     
 highlight TabLine           ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#777777    gui=NONE
 highlight TabLineSel        ctermfg=black     ctermbg=white      cterm=bold               guifg=#000000   guibg=#DDDDDD    gui=bold
 highlight Terminal          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
-highlight Visual            ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
-highlight VisualNOS         ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#A9A9A9    gui=NONE
+highlight Visual            ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#444444    gui=NONE
+highlight VisualNOS         ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#444444    gui=NONE
 highlight WarningMsg        ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=#FFFF00   guibg=NONE       gui=underline
 highlight WildMenu          ctermfg=black     ctermbg=yellow     cterm=bold,underline     guifg=#000000   guibg=#FFFF00    gui=bold,underline
 highlight Title             ctermfg=white     ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
