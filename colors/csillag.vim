@@ -41,7 +41,8 @@ highlight ModeMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold     
 highlight MoreMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight NonText           ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
 " highlight Normal            ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#383C4A    gui=NONE
-highlight Normal            ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight NormalNC          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#000000    gui=NONE
+highlight Normal            ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#111111    gui=NONE
 "highlight Pmenu
 "highlight PmenuSel
 "highlight PmenuSbar
