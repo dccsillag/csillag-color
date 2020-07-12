@@ -123,6 +123,11 @@ highlight ALEStyleWarning      ctermfg=blue      ctermbg=NONE       cterm=underl
 highlight ALEStyleWarningSign  ctermfg=darkblue  ctermbg=NONE       cterm=underline          guifg=#A020F0   guibg=NONE       gui=underline
 highlight ALEInfo              ctermfg=green     ctermbg=NONE       cterm=underline          guifg=#00FF00   guibg=NONE       gui=underline
 
+" CoC
+highlight Pmenu            ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#222222    gui=NONE
+highlight CocFloat         ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#222222    gui=NONE
+highlight NormalFloat      ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=#FFFFFF   guibg=#222222    gui=NONE
+
 " Spell
 highlight SpellBad         ctermfg=NONE      ctermbg=NONE       cterm=undercurl          guifg=NONE      guibg=NONE       gui=undercurl
 highlight SpellCap         ctermfg=gray      ctermbg=NONE       cterm=undercurl          guifg=#BEBEBE   guibg=NONE       gui=undercurl
