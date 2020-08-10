@@ -77,7 +77,7 @@ highlight Directory        ctermfg=blue      ctermbg=NONE       cterm=bold      
 
 " Syntax
 
-highlight Comment          ctermfg=gray       ctermbg=NONE       cterm=italic             guifg=#A5A6A9   guibg=NONE       gui=italic
+highlight Comment          ctermfg=gray       ctermbg=NONE       cterm=NONE               guifg=#A5A6A9   guibg=NONE       gui=NONE
 highlight Constant         ctermfg=lightblue  ctermbg=NONE       cterm=NONE               guifg=#ADD8E6   guibg=NONE       gui=NONE
 highlight Special          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#D10ED5   guibg=NONE       gui=NONE
 highlight Identifier       ctermfg=darkyellow ctermbg=NONE       cterm=bold               guifg=#CC8800   guibg=NONE       gui=bold
@@ -88,11 +88,11 @@ highlight Underlined       ctermfg=NONE       ctermbg=NONE       cterm=underline
 highlight Ignore           ctermfg=0          ctermbg=NONE       cterm=NONE               guifg=bg        guibg=NONE       gui=underline
 highlight Error            ctermfg=red        ctermbg=NONE       cterm=underline          guifg=#FF0000   guibg=NONE       gui=underline
 highlight Todo             ctermfg=black      ctermbg=yellow     cterm=bold               guifg=#000000   guibg=#FFFF00    gui=bold
-highlight String           ctermfg=green      ctermbg=NONE       cterm=italic             guifg=#00FF00   guibg=NONE       gui=italic
+highlight String           ctermfg=green      ctermbg=NONE       cterm=NONE               guifg=#00FF00   guibg=NONE       gui=NONE
 highlight Character        ctermfg=green      ctermbg=NONE       cterm=bold               guifg=#00FF00   guibg=NONE       gui=bold
 highlight Number           ctermfg=cyan       ctermbg=NONE       cterm=NONE               guifg=#54FF9F   guibg=NONE       gui=NONE
 highlight Function         ctermfg=NONE       ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
-highlight Label            ctermfg=cyan       ctermbg=NONE       cterm=italic             guifg=#00FFFF   guibg=NONE       gui=italic
+highlight Label            ctermfg=cyan       ctermbg=NONE       cterm=bold               guifg=#00FFFF   guibg=NONE       gui=bold
 highlight Operator         ctermfg=yellow     ctermbg=NONE       cterm=NONE               guifg=#FFFF00   guibg=NONE       gui=NONE
 highlight Include          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#D10ED5   guibg=NONE       gui=NONE
 highlight Define           ctermfg=cyan       ctermbg=NONE       cterm=bold               guifg=#40E0D0   guibg=NONE       gui=bold
