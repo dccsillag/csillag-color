@@ -79,7 +79,7 @@ highlight Directory        ctermfg=blue      ctermbg=NONE       cterm=bold      
 
 highlight Comment          ctermfg=gray       ctermbg=NONE       cterm=NONE               guifg=#A5A6A9   guibg=NONE       gui=NONE
 highlight Constant         ctermfg=lightblue  ctermbg=NONE       cterm=NONE               guifg=#ADD8E6   guibg=NONE       gui=NONE
-highlight Special          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#D10ED5   guibg=NONE       gui=NONE
+highlight Special          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#F880FF   guibg=NONE       gui=NONE
 highlight Identifier       ctermfg=darkyellow ctermbg=NONE       cterm=bold               guifg=#CC8800   guibg=NONE       gui=bold
 highlight Statement        ctermfg=yellow     ctermbg=NONE       cterm=bold               guifg=#FFFF00   guibg=NONE       gui=bold
 highlight Preproc          ctermfg=cyan       ctermbg=NONE       cterm=NONE               guifg=#40E0D0   guibg=NONE       gui=NONE
@@ -94,7 +94,7 @@ highlight Number           ctermfg=cyan       ctermbg=NONE       cterm=NONE     
 highlight Function         ctermfg=NONE       ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight Label            ctermfg=cyan       ctermbg=NONE       cterm=bold               guifg=#00FFFF   guibg=NONE       gui=bold
 highlight Operator         ctermfg=yellow     ctermbg=NONE       cterm=NONE               guifg=#FFFF00   guibg=NONE       gui=NONE
-highlight Include          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#D10ED5   guibg=NONE       gui=NONE
+highlight Include          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#F880FF   guibg=NONE       gui=NONE
 highlight Define           ctermfg=cyan       ctermbg=NONE       cterm=bold               guifg=#40E0D0   guibg=NONE       gui=bold
 highlight SpecialChar      ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
 highlight Delimiter        ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
