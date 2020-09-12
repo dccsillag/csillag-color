@@ -16,6 +16,17 @@ let &t_Ce="\e[4:0m"
 
 " Core
 
+if exists("g:csillagcolor_backgroundnc")
+    execute 'highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+else
+    highlight NormalNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#151a1c gui=NONE
+endif
+if exists("g:csillagcolor_background")
+    execute 'highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_background . ' gui=NONE'
+else
+    highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#1b2326 gui=NONE
+endif
+
 highlight ColorColumn       ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
 highlight Conceal           ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
 highlight Cursor            ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
@@ -40,9 +51,6 @@ highlight MatchParen        ctermfg=NONE      ctermbg=cyan       cterm=bold,unde
 highlight ModeMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight MoreMsg           ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight NonText           ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
-" highlight Normal            ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#383C4A    gui=NONE
-highlight NormalNC          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#151a1c    gui=NONE
-highlight Normal            ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=#1b2326    gui=NONE
 "highlight Pmenu
 "highlight PmenuSel
 "highlight PmenuSbar
