@@ -17,7 +17,7 @@ let &t_Ce="\e[4:0m"
 " Core
 
 if exists("g:csillagcolor_backgroundnc")
-    execute 'highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight NormalNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
 else
     highlight NormalNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#151a1c gui=NONE
 endif
