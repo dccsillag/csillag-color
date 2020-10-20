@@ -72,7 +72,7 @@ highlight Visual            ctermfg=NONE      ctermbg=darkgray   cterm=NONE     
 highlight VisualNOS         ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#444444    gui=NONE
 highlight WarningMsg        ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=#FFFF00   guibg=NONE       gui=underline
 highlight WildMenu          ctermfg=black     ctermbg=yellow     cterm=bold               guifg=#000000   guibg=#FFFF00    gui=bold
-highlight Title             ctermfg=white     ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight Title             ctermfg=white     ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight PopupNotification ctermfg=black     ctermbg=white      cterm=bold               guifg=#FFFFFF   guibg=#000000    gui=bold
 
 highlight link LineNrAbove LineNr
@@ -82,7 +82,7 @@ highlight link LineNrBelow LineNr
 
 " NetRW
 
-highlight Directory        ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight Directory        ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 
 " Syntax
 
@@ -96,7 +96,7 @@ highlight Type             ctermfg=white      ctermbg=NONE       cterm=NONE     
 highlight Underlined       ctermfg=white      ctermbg=NONE       cterm=underline          guifg=#FFFFFF   guibg=NONE       gui=underline
 highlight Ignore           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Error            ctermfg=white      ctermbg=NONE       cterm=underline          guifg=#FFFFFF   guibg=NONE       gui=underline
-highlight Todo             ctermfg=black      ctermbg=yellow     cterm=bold               guifg=#000000   guibg=#FFFF00    gui=bold
+highlight Todo             ctermfg=black      ctermbg=yellow     cterm=NONE               guifg=#000000   guibg=#FFFF00    gui=NONE
 highlight String           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Character        ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Number           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
@@ -107,7 +107,7 @@ highlight Include          ctermfg=white      ctermbg=NONE       cterm=NONE     
 highlight Define           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight SpecialChar      ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
 highlight Delimiter        ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
-highlight SpecialComment   ctermfg=gray       ctermbg=NONE       cterm=bold               guifg=#A5A6A9   guibg=NONE       gui=bold
+highlight SpecialComment   ctermfg=gray       ctermbg=NONE       cterm=NONE               guifg=#A5A6A9   guibg=NONE       gui=NONE
 highlight Debug            ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 
 highlight link Conditional  Statement
