@@ -96,7 +96,7 @@ highlight Type             ctermfg=white      ctermbg=NONE       cterm=NONE     
 highlight Underlined       ctermfg=white      ctermbg=NONE       cterm=underline          guifg=#FFFFFF   guibg=NONE       gui=underline
 highlight Ignore           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Error            ctermfg=white      ctermbg=NONE       cterm=underline          guifg=#FFFFFF   guibg=NONE       gui=underline
-highlight Todo             ctermfg=black      ctermbg=yellow     cterm=bold,italic        guifg=#000000   guibg=#FFFF00    gui=bold,italic
+highlight Todo             ctermfg=black      ctermbg=yellow     cterm=bold               guifg=#000000   guibg=#FFFF00    gui=bold
 highlight String           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Character        ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Number           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
