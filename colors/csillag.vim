@@ -38,7 +38,7 @@ highlight DiffChange        ctermfg=NONE      ctermbg=darkyellow cterm=NONE     
 highlight DiffText          ctermfg=NONE      ctermbg=lightgray  cterm=NONE               guifg=NONE      guibg=lightgray  gui=NONE
 highlight DiffAdd           ctermfg=NONE      ctermbg=green      cterm=NONE               guifg=NONE      guibg=green      gui=NONE
 highlight DiffDelete        ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
-highlight EndOfBuffer       ctermfg=blue      ctermbg=NONE       cterm=NONE               guifg=#0303F6   guibg=NONE       gui=NONE
+highlight EndOfBuffer       ctermfg=lightgray ctermbg=NONE       cterm=NONE               guifg=#CCCCCC   guibg=NONE       gui=NONE
 highlight ErrorMsg          ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
 highlight VertSplit         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#263038   guibg=NONE       gui=NONE
 highlight Folded            ctermfg=black     ctermbg=darkgray   cterm=NONE               guifg=#AAAAAA   guibg=#545454    gui=NONE
@@ -81,33 +81,33 @@ highlight link LineNrBelow LineNr
 
 " NetRW
 
-highlight Directory        ctermfg=blue      ctermbg=NONE       cterm=bold               guifg=#0707E9   guibg=NONE       gui=bold
+highlight Directory        ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
 
 " Syntax
 
 highlight Comment          ctermfg=gray       ctermbg=NONE       cterm=NONE               guifg=#A5A6A9   guibg=NONE       gui=NONE
-highlight Constant         ctermfg=lightblue  ctermbg=NONE       cterm=NONE               guifg=#ADD8E6   guibg=NONE       gui=NONE
-highlight Special          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#F880FF   guibg=NONE       gui=NONE
-highlight Identifier       ctermfg=darkyellow ctermbg=NONE       cterm=bold               guifg=#CC8800   guibg=NONE       gui=bold
-highlight Statement        ctermfg=yellow     ctermbg=NONE       cterm=bold               guifg=#FFFF00   guibg=NONE       gui=bold
-highlight Preproc          ctermfg=cyan       ctermbg=NONE       cterm=NONE               guifg=#40E0D0   guibg=NONE       gui=NONE
-highlight Type             ctermfg=darkgreen  ctermbg=NONE       cterm=NONE               guifg=#02C703   guibg=NONE       gui=NONE
-highlight Underlined       ctermfg=NONE       ctermbg=NONE       cterm=underline          guifg=NONE      guibg=NONE       gui=underline
-highlight Ignore           ctermfg=0          ctermbg=NONE       cterm=NONE               guifg=bg        guibg=NONE       gui=underline
-highlight Error            ctermfg=red        ctermbg=NONE       cterm=underline          guifg=#FF0000   guibg=NONE       gui=underline
-highlight Todo             ctermfg=black      ctermbg=yellow     cterm=bold               guifg=#000000   guibg=#FFFF00    gui=bold
-highlight String           ctermfg=green      ctermbg=NONE       cterm=NONE               guifg=#00FF00   guibg=NONE       gui=NONE
-highlight Character        ctermfg=green      ctermbg=NONE       cterm=bold               guifg=#00FF00   guibg=NONE       gui=bold
-highlight Number           ctermfg=cyan       ctermbg=NONE       cterm=NONE               guifg=#54FF9F   guibg=NONE       gui=NONE
-highlight Function         ctermfg=NONE       ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
-highlight Label            ctermfg=cyan       ctermbg=NONE       cterm=bold               guifg=#00FFFF   guibg=NONE       gui=bold
-highlight Operator         ctermfg=yellow     ctermbg=NONE       cterm=NONE               guifg=#FFFF00   guibg=NONE       gui=NONE
-highlight Include          ctermfg=magenta    ctermbg=NONE       cterm=NONE               guifg=#F880FF   guibg=NONE       gui=NONE
-highlight Define           ctermfg=cyan       ctermbg=NONE       cterm=bold               guifg=#40E0D0   guibg=NONE       gui=bold
+highlight Constant         ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Special          ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Identifier       ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Statement        ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Preproc          ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Type             ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Underlined       ctermfg=white      ctermbg=NONE       cterm=underline          guifg=#FFFFFF   guibg=NONE       gui=underline
+highlight Ignore           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Error            ctermfg=white      ctermbg=NONE       cterm=underline          guifg=#FFFFFF   guibg=NONE       gui=underline
+highlight Todo             ctermfg=black      ctermbg=yellow     cterm=bold,italic        guifg=#000000   guibg=#FFFF00    gui=bold,italic
+highlight String           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Character        ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Number           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Function         ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Label            ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Operator         ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight Include          ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Define           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight SpecialChar      ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
 highlight Delimiter        ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
-highlight SpecialComment   ctermfg=gray       ctermbg=NONE       cterm=bold               guifg=#BEBEBE   guibg=NONE       gui=bold
-highlight Debug            ctermfg=brown      ctermbg=NONE       cterm=bold               guifg=#FFB6C1   guibg=NONE       gui=bold
+highlight SpecialComment   ctermfg=gray       ctermbg=NONE       cterm=bold               guifg=#A5A6A9   guibg=NONE       gui=bold
+highlight Debug            ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 
 highlight link Conditional  Statement
 highlight link Repeat       Statement
