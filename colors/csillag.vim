@@ -102,11 +102,11 @@ highlight Character        ctermfg=white      ctermbg=NONE       cterm=NONE     
 highlight Number           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Function         ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Label            ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
-highlight Operator         ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight Operator         ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Include          ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight Define           ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
-highlight SpecialChar      ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
-highlight Delimiter        ctermfg=white      ctermbg=NONE       cterm=bold               guifg=#FFFFFF   guibg=NONE       gui=bold
+highlight SpecialChar      ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Delimiter        ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight SpecialComment   ctermfg=gray       ctermbg=NONE       cterm=NONE               guifg=#A5A6A9   guibg=NONE       gui=NONE
 highlight Debug            ctermfg=white      ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 
