@@ -17,14 +17,24 @@ let &t_Ce="\e[4:0m"
 " Core
 
 if exists("g:csillagcolor_backgroundnc")
-    execute 'highlight NormalNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight NormalNC         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight VertSplit        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight StatusLine       ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight StatusLineNC     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight StatusLineTerm   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
+    execute 'highlight StatusLineTermNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
 else
-    highlight NormalNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#151a1c gui=NONE
+    highlight NormalNC         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#151a1c gui=NONE
+    highlight VertSplit        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
+    highlight StatusLine       ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
+    highlight StatusLineNC     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
+    highlight StatusLineTerm   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
+    highlight StatusLineTermNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
 endif
 if exists("g:csillagcolor_background")
     execute 'highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_background . ' gui=NONE'
 else
-    highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#1b2326 gui=NONE
+    highlight Normal           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#1b2326 gui=NONE
 endif
 
 highlight ColorColumn       ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#333333    gui=NONE
@@ -40,7 +50,6 @@ highlight DiffAdd           ctermfg=NONE      ctermbg=green      cterm=NONE     
 highlight DiffDelete        ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
 highlight EndOfBuffer       ctermfg=lightgray ctermbg=NONE       cterm=NONE               guifg=#CCCCCC   guibg=NONE       gui=NONE
 highlight ErrorMsg          ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
-highlight VertSplit         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
 highlight Folded            ctermfg=lightgray ctermbg=NONE       cterm=bold               guifg=#AAAAAA   guibg=NONE       gui=bold
 highlight FoldColumn        ctermfg=white     ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight SignColumn        ctermfg=white     ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
@@ -59,10 +68,6 @@ highlight NonText           ctermfg=gray      ctermbg=NONE       cterm=NONE     
 highlight Question          ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight QuickFixLine      ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight SpecialKey        ctermfg=blue      ctermbg=NONE       cterm=bold               guifg=#00afea   guibg=NONE       gui=bold
-highlight StatusLine        ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
-highlight StatusLineNC      ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
-highlight StatusLineTerm    ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
-highlight StatusLineTermNC  ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
 " FIXME: TabLine, TabLineFill, TabLineSel
 highlight TabLineFill       ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#AAAAAA    gui=NONE
 highlight TabLine           ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#777777    gui=NONE
