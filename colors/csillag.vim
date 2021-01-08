@@ -72,7 +72,7 @@ highlight Visual            ctermfg=NONE      ctermbg=darkgray   cterm=NONE     
 highlight VisualNOS         ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#444444    gui=NONE
 highlight WarningMsg        ctermfg=yellow    ctermbg=NONE       cterm=underline          guifg=#FFFF00   guibg=NONE       gui=underline
 highlight WildMenu          ctermfg=black     ctermbg=yellow     cterm=bold               guifg=#000000   guibg=#FFFF00    gui=bold
-highlight Title             ctermfg=white     ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
+highlight Title             ctermfg=white     ctermbg=NONE       cterm=bold,underline     guifg=#FFFFFF   guibg=NONE       gui=bold,underline
 highlight PopupNotification ctermfg=black     ctermbg=white      cterm=bold               guifg=#FFFFFF   guibg=#000000    gui=bold
 
 highlight link LineNrAbove LineNr
