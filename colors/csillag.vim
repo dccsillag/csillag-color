@@ -40,7 +40,7 @@ highlight DiffAdd           ctermfg=NONE      ctermbg=green      cterm=NONE     
 highlight DiffDelete        ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
 highlight EndOfBuffer       ctermfg=lightgray ctermbg=NONE       cterm=NONE               guifg=#CCCCCC   guibg=NONE       gui=NONE
 highlight ErrorMsg          ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
-highlight VertSplit         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#263038   guibg=NONE       gui=NONE
+highlight VertSplit         ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
 highlight Folded            ctermfg=lightgray ctermbg=NONE       cterm=bold               guifg=#AAAAAA   guibg=NONE       gui=bold
 highlight FoldColumn        ctermfg=white     ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
 highlight SignColumn        ctermfg=white     ctermbg=NONE       cterm=NONE               guifg=#FFFFFF   guibg=NONE       gui=NONE
@@ -59,10 +59,10 @@ highlight NonText           ctermfg=gray      ctermbg=NONE       cterm=NONE     
 highlight Question          ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight QuickFixLine      ctermfg=NONE      ctermbg=NONE       cterm=bold               guifg=NONE      guibg=NONE       gui=bold
 highlight SpecialKey        ctermfg=blue      ctermbg=NONE       cterm=bold               guifg=#00afea   guibg=NONE       gui=bold
-highlight StatusLine        ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#FFFFFF    gui=bold
-highlight StatusLineNC      ctermfg=white     ctermbg=black      cterm=NONE               guifg=#FFFFFF   guibg=#000000    gui=NONE
-highlight StatusLineTerm    ctermfg=black     ctermbg=lightgreen cterm=NONE               guifg=#000000   guibg=#90EE90    gui=bold
-highlight StatusLineTermNC  ctermfg=black     ctermbg=black      cterm=NONE               guifg=#000000   guibg=#000000    gui=NONE
+highlight StatusLine        ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
+highlight StatusLineNC      ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
+highlight StatusLineTerm    ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
+highlight StatusLineTermNC  ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=#364048   guibg=#151a1c    gui=NONE
 " FIXME: TabLine, TabLineFill, TabLineSel
 highlight TabLineFill       ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#AAAAAA    gui=NONE
 highlight TabLine           ctermfg=black     ctermbg=white      cterm=NONE               guifg=#000000   guibg=#777777    gui=NONE
