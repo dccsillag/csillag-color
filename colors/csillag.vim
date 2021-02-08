@@ -16,26 +16,13 @@ let &t_Ce="\e[4:0m"
 
 " Core
 
-if exists("g:csillagcolor_backgroundnc")
-    execute 'highlight NormalNC         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
-    execute 'highlight VertSplit        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
-    execute 'highlight StatusLine       ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
-    execute 'highlight StatusLineNC     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
-    execute 'highlight StatusLineTerm   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
-    execute 'highlight StatusLineTermNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=' . g:csillagcolor_backgroundnc . ' gui=NONE'
-else
-    highlight NormalNC         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#151a1c gui=NONE
-    highlight VertSplit        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
-    highlight StatusLine       ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
-    highlight StatusLineNC     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
-    highlight StatusLineTerm   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
-    highlight StatusLineTermNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=#151a1c gui=NONE
-endif
-if exists("g:csillagcolor_background")
-    execute 'highlight Normal ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=' . g:csillagcolor_background . ' gui=NONE'
-else
-    highlight Normal           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=#1b2326 gui=NONE
-endif
+highlight NormalNC         ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=NONE gui=NONE
+highlight VertSplit        ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=NONE gui=NONE
+highlight StatusLine       ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=NONE gui=NONE
+highlight StatusLineNC     ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=NONE gui=NONE
+highlight StatusLineTerm   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=NONE gui=NONE
+highlight StatusLineTermNC ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#364048 guibg=NONE gui=NONE
+highlight Normal           ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#FFFFFF guibg=NONE gui=NONE
 
 highlight ColorColumn       ctermfg=NONE      ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#333333    gui=NONE
 highlight Conceal           ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
