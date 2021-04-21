@@ -31,10 +31,10 @@ highlight lCursor           ctermfg=NONE      ctermbg=NONE       cterm=reverse  
 highlight CursorIM          ctermfg=NONE      ctermbg=NONE       cterm=reverse            guifg=NONE      guibg=NONE       gui=reverse
 highlight CursorColumn      ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#555555    gui=NONE
 highlight CursorLine        ctermfg=white     ctermbg=darkgray   cterm=NONE               guifg=NONE      guibg=#555555    gui=NONE
-highlight DiffChange        ctermfg=NONE      ctermbg=darkyellow cterm=NONE               guifg=NONE      guibg=darkyellow gui=NONE
-highlight DiffText          ctermfg=NONE      ctermbg=lightgray  cterm=NONE               guifg=NONE      guibg=lightgray  gui=NONE
-highlight DiffAdd           ctermfg=NONE      ctermbg=green      cterm=NONE               guifg=NONE      guibg=green      gui=NONE
-highlight DiffDelete        ctermfg=NONE      ctermbg=red        cterm=NONE               guifg=NONE      guibg=#FF0000    gui=NONE
+highlight DiffChange        ctermfg=black     ctermbg=yellow     cterm=NONE               guifg=#000000   guibg=yellow     gui=NONE
+highlight DiffText          ctermfg=NONE      ctermbg=NONE       cterm=NONE               guifg=NONE      guibg=NONE       gui=NONE
+highlight DiffAdd           ctermfg=black     ctermbg=green      cterm=NONE               guifg=#000000   guibg=lime       gui=NONE
+highlight DiffDelete        ctermfg=white     ctermbg=red        cterm=NONE               guifg=#FFFFFF   guibg=#FF0000    gui=NONE
 highlight EndOfBuffer       ctermfg=lightgray ctermbg=NONE       cterm=NONE               guifg=#CCCCCC   guibg=NONE       gui=NONE
 highlight ErrorMsg          ctermfg=red       ctermbg=NONE       cterm=bold               guifg=#FF0000   guibg=NONE       gui=bold
 highlight Folded            ctermfg=lightgray ctermbg=NONE       cterm=bold               guifg=#AAAAAA   guibg=NONE       gui=bold
